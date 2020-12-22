@@ -11,6 +11,8 @@
 		6D24D1DD25926225004A5262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D24D1DC25926225004A5262 /* ContentView.swift */; };
 		6D24D1DF25926226004A5262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D24D1DE25926226004A5262 /* Assets.xcassets */; };
 		6D24D1E225926226004A5262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D24D1E125926226004A5262 /* Preview Assets.xcassets */; };
+		6D24D1EC259264E4004A5262 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D24D1EA259264E3004A5262 /* tips.json */; };
+		6D24D1ED259264E4004A5262 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D24D1EB259264E3004A5262 /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		6D24D1DE25926226004A5262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D24D1E125926226004A5262 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6D24D1E325926227004A5262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D24D1EA259264E3004A5262 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		6D24D1EB259264E3004A5262 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				6D24D1DC25926225004A5262 /* ContentView.swift */,
 				6D24D1DE25926226004A5262 /* Assets.xcassets */,
 				6D24D1E325926227004A5262 /* Info.plist */,
+				6D24D1EB259264E3004A5262 /* locations.json */,
+				6D24D1EA259264E3004A5262 /* tips.json */,
 				6D24D1E025926226004A5262 /* Preview Content */,
 			);
 			path = Trekr;
@@ -128,6 +134,8 @@
 			files = (
 				6D24D1E225926226004A5262 /* Preview Assets.xcassets in Resources */,
 				6D24D1DF25926226004A5262 /* Assets.xcassets in Resources */,
+				6D24D1ED259264E4004A5262 /* locations.json in Resources */,
+				6D24D1EC259264E4004A5262 /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
