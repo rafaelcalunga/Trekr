@@ -30,6 +30,7 @@
 		6D24D1F02592705C004A5262 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		6D24D1F4259274B4004A5262 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		6D24D1F825927CA5004A5262 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		6D24D1FC25928404004A5262 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 			children = (
 				6D24D1D925926225004A5262 /* Trekr */,
 				6D24D1D825926225004A5262 /* Products */,
+				6D24D1FC25928404004A5262 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
