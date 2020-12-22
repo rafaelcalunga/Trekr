@@ -18,16 +18,21 @@ struct TrekrApp: App {
                     ContentView(location: locations.primary)
                 }
                 .tabItem {
-                    Image(systemName: "airplane.circle.fill")
-                    Text("Discover")
+                    Label("Discover", systemImage: "airplane.circle.fill")
                 }
                 
                 NavigationView {
                     WorldView()
                 }
                 .tabItem {
-                    Image(systemName: "star.fill")
-                    Text("Locations")
+                    Label("Locations", systemImage: "star.fill")
+                }
+                
+                NavigationView {
+                    TipsView()
+                }
+                .tabItem {
+                    Label("Tips", systemImage: "list.bullet")
                 }
             }
             .environmentObject(locations)
